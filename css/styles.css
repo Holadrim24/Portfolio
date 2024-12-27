@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:blanchedalmond;
+    padding: 2em 0 2em 0;
+    background-image: url('/img/Woods.jpg');
+    background-position: center;
+    min-height: 500px;
+    width: stretch;
+}
+
+body, html{
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size:40px;
+    padding:40px;
+}
+
+a {
+    font-size: 34px;
+}
+
+main{
+    background-image: url('/img/72.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color:white;
+    flex: 1 1 800px;
+    padding: 30px;
+}
+
+main h1{
+    font-family: "Playfair Display", serif;
+    font-size: 76px;
+    text-decoration: dashed underline;
+}
+
+main h2{
+    padding: 20px;
+}
+
+main i {
+    color:bisque;
+    padding: 30px;
+}
+
+main #portfolio {
+    padding:60px;
+}
+
+main #about-programmer {
+    padding: 60px;
+}
+
+main #skills {
+    padding: 60px;
+}
+
+main #refer {
+    padding: 60px;
+}
+
+main #contact-info {
+    padding: 60px;
+}
+
+main #top-of-page{
+    font-size: 25px;
+    text-align: center;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    position: sticky;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    background-color:slategrey;
+    color:black;
+    box-shadow: 0 2px 4px 0 darkslategray;
+    height: 100px;
+    width: 100%;
+    transition: 0.5s;
+    top: 0;
+}
+
+.navbar a:hover
+{
+    color:darkslategray;
+}
+
+.navbar li {
+    display:flex;
+    flex-direction:row;
+    padding: 30px;
+}
+
+nav a{
+    padding: 15px;
+}
+
+:visited{
+    color: black;
+}
+
+.download-cv i:hover{
+    color:burlywood;
+}
+
+.social-media i:hover{
+    color:burlywood;
+}
+
+.message-button:hover{
+    background-color: burlywood
+}
+
+.my-game:hover{
+    color:burlywood;
+}
+
+#first-header {
+    font-size: 48px;
+}
+
+#my-name {
+    font-size: 72px;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.about-me p {
+    color:darkslategray;
+    padding: 50px;
+    font-size: 34px;
+}
+
+.my-skills a {
+    color:darkslategray;
+}
+
+.my-skills p{
+    text-decoration: underline;
+}
+
+#game-article{
+    color:darkslategray;
+    font-family: "Rubik Bubbles", serif;
+    font-style: normal;
+    font-size: 34px;
+}
+
+#previous-occuptations{
+    color:darkslategray
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+.contact-me div .send-message {
+    position-anchor:inherit;
+}
+
+.send-message-button {
+    padding: 20px;
+}
+
+.send-message-button .message-button{
+    height: 50px;
+    width: 80px;
+    background-color:bisque;
+    border-radius: 15px;
+    box-shadow: 0 5px grey;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+textarea {
+    height: 200px;
+    width: 400px;
+    resize: none;
+}
+
+input[type=text]{
+    height: 40px;
+    width: 300px;
+} 
+
+input[type=submit]{
+    height: 50px;
+    width: 80px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social-media i {
+    padding: 10px;
+} 
+
+footer{
+    background-color:mediumaquamarine;
+    background-image: url('/img/abstract.jpg');
+    background-size: cover;
+    height: 150px;
+    width: stretch;
+    position: relative;
+    z-index: 1;
+}
+
+footer p {
+    text-align: right;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px){
+    header{
+        max-height:70%;
+    } 
+
+    main{
+        text-align: center;
+        /* position:relative; */
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    main p {
+        font-size: 32px;
+    }
+
+    .navbar{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        padding-top: 0;
+        z-index: 101;
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    .navbar a{
+        font-size: 20px;
+    }
+
+    .navbar h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 15px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .social-media i{
+        padding: 10px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 18px;
+    }
+}
