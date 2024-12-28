@@ -55,23 +55,23 @@ main i {
 }
 
 main #portfolio {
-    padding:60px;
+    padding:80px;
 }
 
 main #about-programmer {
-    padding: 60px;
+    padding: 80px;
 }
 
 main #skills {
-    padding: 60px;
+    padding: 80px;
 }
 
 main #refer {
-    padding: 60px;
+    padding: 80px;
 }
 
 main #contact-info {
-    padding: 60px;
+    padding: 80px;
 }
 
 main #top-of-page{
@@ -240,10 +240,6 @@ footer p {
 }
 
 @media screen and (max-width: 600px){
-    header{
-        max-height:70%;
-    } 
-
     main{
         text-align: center;
         /* position:relative; */
@@ -253,6 +249,7 @@ footer p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
     }
 
     main h1 {
